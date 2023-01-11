@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar col-12 m-auto navbar-expand-lg navbar-dark bg-dark position-fixed-top" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#">EcoLife</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="digite aqui..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">pesquisar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <main class="bg-success p-2 text-dark bg-opacity-10">
+
+      <div id="carouselExampleCaptions" class="carousel slide col-11 m-auto">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/cachoeira.jpg" class="d-block w-100" alt="cachoeira">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>cascata</h5>
+                <p>Lorem ipsum dolor, Consectetur mollitia accusamus earum vol</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/ceu.jpg" class="d-block w-100" alt="ceu estrelado">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>céu estrelado</h5>
+                <p> Tempora doloremque nostrum consequatur ipsam voluptatem ullam iste, quia ad earum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/rio.jpg" class="d-block w-100" alt="floresta">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>arvores que nao se tocam</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  
+      <br>
+  
+      <div class="row col-10 m-auto row-cols-1 row-cols-md-3 g-4">
+          <div class="col ">
+            <div class="card ">
+              <img class="card-img-top" src="img/pexels-stein-egil-liland-3408744.jpg"  alt="aurora_boreal">
+              <div class="card-body">
+                <h5 class="card-title">neve</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda dolor quas consectetur enim dolorem laboriosam aliquid, iure, tenetur eligendi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/pexels-pixabay-36717.jpg" class="card-img-top" alt="por do sol">
+              <div class="card-body">
+                <h5 class="card-title">por do sol</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nihil, soluta beatae sit eligendi placeat, voluptatibus deb dolorem laboriosam aliquid, ades fec.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/paisagem.jpg" class="card-img-top" alt="paisagem">
+              <div class="card-body">
+                <h5 class="card-title">tarde de primavera</h5>
+                <p class="card-text">Mussum Ipsum, cacilds vidis litro abertis. Atirei o pau no gatis, per gatis num morreus.Mé Mauris aliquet nunc non turpis scelerisque, eget</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+      <hr>
+  
+      <div class="row col-10 m-auto text-center">
+        <h2>oceano</h2>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Casamentiss faiz malandris se pirulitá.Viva Forevis aptent taciti sociosqu ad litora torquent.Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
+          Delegadis gente finis, bibendum egestas augue arcu ut est.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Diuretics paradis num copo é motivis de denguis.</p>
+        
+        <h2> natureza</h2>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga.Praesent malesuada urna nisi, quis volutpat ert hendrerit non. Nam vulputate dapibus.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.
+          Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+          Quem manda na minha terra sou euzis!Diuretics paradis num copo é motivis de denguis.Quem num gosta di mim que vai caçá sua turmis!Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.</p>  
+        </div>
+  
+      <hr>
+  
+      <div class="col-12 m-auto text-center">
+        <a href="https://github.com/wevba"><i class="fa-brands fa-github" style="font-size: 2em; color: rgb(7, 3, 3);"></i></a>
+        <a href="https://www.linkedin.com/in/weverton-nascimento-443381203/"><i class="fa-brands fa-linkedin" style="font-size: 2em; color: rgb(92, 127, 241);"></i></a>
+      </div>
+  
+    </main>
+    
+    <footer class="p-2 text-light bg-dark border text-center">
+        <div>
+        &copy; Copyright 2023 wevba.
+        </div>
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </body>
+</html>
